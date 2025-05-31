@@ -1,1 +1,0 @@
-# Cozy Hub Coffee Shop Website
