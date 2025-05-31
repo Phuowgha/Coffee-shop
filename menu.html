@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Cozy Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <h1><a href="index.html">Cozy Hub</a></h1>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-cart">
+                <i class="fas fa-shopping-cart cart-icon"></i>
+                <span class="cart-count">0</span>
+                <div class="cart-dropdown">
+                    <button class="cart-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="cart-items">
+                        <div class="empty-cart">
+                            <p>Giỏ hàng trống</p>
+                        </div>
+                    </div>
+                    <div class="cart-total">
+                        <span>Tổng cộng:</span>
+                        <span class="cart-total-price">0₫</span>
+                    </div>
+                    <div class="cart-buttons">
+                        <button class="cart-btn view-cart-btn">Xem giỏ hàng</button>
+                        <button class="cart-btn checkout-btn">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="menu-page">
+        <div class="menu-container">
+            <aside class="category-sidebar">
+                <h2>Danh Mục</h2>
+                <ul class="category-list">
+                    <li class="category-item active">
+                        <a href="#coffee">Cà Phê Việt Nam</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#tea">Trà</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#frappe">Đá Xay</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#green-tea">Trà Xanh</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#pastries">Bánh Ngọt</a>
+                    </li>
+                </ul>
+            </aside>
+
+            <section class="menu-content">
+                <div id="coffee" class="menu-section">
+                    <h2 class="category-title">Cà Phê Việt Nam</h2>
+                    <div class="product-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?ixlib=rb-4.0.3" alt="Cà Phê Sữa Đá">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Cà Phê Sữa Đá</h3>
+                                <p>Cà phê đậm đà với sữa đặc</p>
+                                <div class="menu-item-price">45.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1593443320739-77f74939d0da?ixlib=rb-4.0.3" alt="Cà Phê Dừa">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Cà Phê Dừa</h3>
+                                <p>Cà phê với kem dừa béo ngậy</p>
+                                <div class="menu-item-price">55.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3" alt="Cà Phê Trứng">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Cà Phê Trứng</h3>
+                                <p>Cà phê trứng truyền thống Hà Nội</p>
+                                <div class="menu-item-price">59.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3" alt="Bạc Xỉu">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Bạc Xỉu</h3>
+                                <p>Cà phê sữa ngọt béo</p>
+                                <div class="menu-item-price">45.000₫</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tea" class="menu-section">
+                    <h2 class="category-title">Trà</h2>
+                    <div class="product-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3" alt="Trà Lài">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Lài</h3>
+                                <p>Trà xanh hương lài thơm ngát</p>
+                                <div class="menu-item-price">35.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3" alt="Trà Chanh">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Chanh</h3>
+                                <p>Trà đen với chanh tươi mát</p>
+                                <div class="menu-item-price">39.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1558857563-b371033873b8?ixlib=rb-4.0.3" alt="Trà Đào">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Đào</h3>
+                                <p>Trà đào thơm ngọt</p>
+                                <div class="menu-item-price">45.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1588929473475-d16ffd5d068c?ixlib=rb-4.0.3" alt="Trà Sữa Trân Châu">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Sữa Trân Châu</h3>
+                                <p>Trà sữa với trân châu đường đen</p>
+                                <div class="menu-item-price">49.000₫</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="frappe" class="menu-section">
+                    <h2 class="category-title">Đá Xay</h2>
+                    <div class="product-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3" alt="Cà Phê Đá Xay">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Cà Phê Đá Xay</h3>
+                                <p>Cà phê đá xay với kem tươi</p>
+                                <div class="menu-item-price">59.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?ixlib=rb-4.0.3" alt="Socola Đá Xay">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Socola Đá Xay</h3>
+                                <p>Socola đậm đà với đá xay</p>
+                                <div class="menu-item-price">55.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?ixlib=rb-4.0.3" alt="Dâu Đá Xay">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Dâu Đá Xay</h3>
+                                <p>Sinh tố dâu tây tươi mát</p>
+                                <div class="menu-item-price">55.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3" alt="Caramel Đá Xay">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Caramel Đá Xay</h3>
+                                <p>Caramel đá xay với cà phê</p>
+                                <div class="menu-item-price">59.000₫</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="green-tea" class="menu-section">
+                    <h2 class="category-title">Trà Xanh</h2>
+                    <div class="product-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-4.0.3" alt="Trà Xanh Đá">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Xanh Đá</h3>
+                                <p>Trà xanh truyền thống</p>
+                                <div class="menu-item-price">55.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3" alt="Trà Xanh Sữa">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Xanh Sữa</h3>
+                                <p>Trà xanh với sữa tươi</p>
+                                <div class="menu-item-price">49.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?ixlib=rb-4.0.3" alt="Trà Xanh Đá Xay">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Xanh Đá Xay</h3>
+                                <p>Trà xanh đá xay với kem</p>
+                                <div class="menu-item-price">59.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-4.0.3" alt="Trà Xanh Cookie">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Trà Xanh Cookie</h3>
+                                <p>Trà xanh với bánh cookie</p>
+                                <div class="menu-item-price">65.000₫</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pastries" class="menu-section">
+                    <h2 class="category-title">Bánh Ngọt</h2>
+                    <div class="product-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?ixlib=rb-4.0.3" alt="Bánh Sừng Bò">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Bánh Sừng Bò</h3>
+                                <p>Bánh sừng bò bơ mới nướng</p>
+                                <div class="menu-item-price">35.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3" alt="Bánh Muffin Socola">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Bánh Muffin Socola</h3>
+                                <p>Bánh muffin với socola chip</p>
+                                <div class="menu-item-price">39.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1534432182912-63863115e106?ixlib=rb-4.0.3" alt="Bánh Cookie">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Bánh Cookie Socola</h3>
+                                <p>Bánh cookie socola mới nướng</p>
+                                <div class="menu-item-price">29.000₫</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1612203985729-70726954388c?ixlib=rb-4.0.3" alt="Bánh Tiramisu">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Bánh Tiramisu</h3>
+                                <p>Bánh tiramisu hương cà phê</p>
+                                <div class="menu-item-price">45.000₫</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="address">
+                        <a href="https://maps.google.com/?q=1+Đại+Cồ+Việt,+Hai+Bà+Trưng,+Hà+Nội" class="contact-info" target="_blank">
+                            <i class="fas fa-location-dot"></i>
+                            <span>1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội</span>
+                        </a>
+                        <a href="tel:+84987654321" class="contact-info">
+                            <i class="fas fa-phone"></i>
+                            <span>0987 654 321</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cozy Hub. Đã đăng ký bản quyền.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

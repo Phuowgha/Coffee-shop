@@ -1,0 +1,89 @@
+MENU CÀ PHÊ COZY HUB
+
+=== CÀ PHÊ VIỆT NAM ===
+1. Cà Phê Sữa Đá
+   Mô tả: Cà phê đậm đà với sữa đặc
+   Giá: 45.000₫
+
+2. Cà Phê Dừa
+   Mô tả: Cà phê với kem dừa béo ngậy
+   Giá: 55.000₫
+
+3. Cà Phê Trứng
+   Mô tả: Cà phê trứng truyền thống Hà Nội
+   Giá: 59.000₫
+
+4. Bạc Xỉu
+   Mô tả: Cà phê sữa ngọt béo
+   Giá: 45.000₫
+
+=== TRÀ ===
+1. Trà Lài
+   Mô tả: Trà xanh hương lài thơm ngát
+   Giá: 35.000₫
+
+2. Trà Chanh
+   Mô tả: Trà đen với chanh tươi mát
+   Giá: 39.000₫
+
+3. Trà Đào
+   Mô tả: Trà đào thơm ngọt
+   Giá: 45.000₫
+
+4. Trà Sữa Trân Châu
+   Mô tả: Trà sữa với trân châu đường đen
+   Giá: 49.000₫
+
+=== ĐÁ XAY ===
+1. Cà Phê Đá Xay
+   Mô tả: Cà phê đá xay với kem tươi
+   Giá: 59.000₫
+
+2. Socola Đá Xay
+   Mô tả: Socola đậm đà với đá xay
+   Giá: 55.000₫
+
+3. Dâu Đá Xay
+   Mô tả: Sinh tố dâu tây tươi mát
+   Giá: 55.000₫
+
+4. Caramel Đá Xay
+   Mô tả: Caramel đá xay với cà phê
+   Giá: 59.000₫
+
+=== TRÀ XANH ===
+1. Trà Xanh Đá
+   Mô tả: Trà xanh truyền thống
+   Giá: 55.000₫
+
+2. Trà Xanh Sữa
+   Mô tả: Trà xanh với sữa tươi
+   Giá: 49.000₫
+
+3. Trà Xanh Đá Xay
+   Mô tả: Trà xanh đá xay với kem
+   Giá: 59.000₫
+
+4. Trà Xanh Cookie
+   Mô tả: Trà xanh với bánh cookie
+   Giá: 65.000₫
+
+=== BÁNH NGỌT ===
+1. Bánh Sừng Bò
+   Mô tả: Bánh sừng bò bơ mới nướng
+   Giá: 35.000₫
+
+2. Bánh Muffin Socola
+   Mô tả: Bánh muffin với socola chip
+   Giá: 39.000₫
+
+3. Bánh Cookie Socola
+   Mô tả: Bánh cookie socola mới nướng
+   Giá: 29.000₫
+
+4. Bánh Tiramisu
+   Mô tả: Bánh tiramisu hương cà phê
+   Giá: 45.000₫
+
+=== THÔNG TIN LIÊN HỆ ===
+Địa chỉ: 48 Trần Kim Xuyến, Yên Hòa, Cầu Giấy, Hà Nội 
